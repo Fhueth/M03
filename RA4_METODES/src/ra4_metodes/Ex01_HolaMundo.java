@@ -8,8 +8,11 @@ package ra4_metodes;
  *
  * @author alexp
  */
-public class LaMevaClasse {
+public class Ex01_HolaMundo {
     public static void main(String[] args)  {
-        System.out.println(args[0]);
+        hola();
+    }
+    static void hola()  {
+        System.out.println("Hola mundo");
     }
 }
